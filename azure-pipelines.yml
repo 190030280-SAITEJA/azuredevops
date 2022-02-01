@@ -18,6 +18,9 @@ public class AddTwoNumbers {
       sum = num1 + num2;
 
       System.out.println("Sum of these numbers:"+sum);
+- task: CmdLine@2
+  inputs:
+    script: 'javac  AddTwoNumbers.java'
    }
 }
 - task: CmdLine@2
